@@ -7,7 +7,7 @@
 // lada local + número, solo dígitos). Ejemplo: "5215512345678".
 // Mientras esté vacío, los botones de WhatsApp mostrarán un aviso en
 // lugar de abrir una conversación con un número inválido o ajeno.
-const WHATSAPP_NUMBER = "";
+const WHATSAPP_NUMBER = "5216692699097";
 
 document.addEventListener('DOMContentLoaded', () => {
   initLoader();
