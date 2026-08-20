@@ -158,7 +158,7 @@ section { position: relative; }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 
 .nav-logo { display: flex; align-items: center; }
-.nav-logo-img { height: 42px; width: auto; transition: transform .3s var(--ease); }
+.nav-logo-img { height: 56px; width: auto; transition: transform .3s var(--ease); }
 .nav-logo:hover .nav-logo-img { transform: scale(1.04); }
 
 .nav-links { display: flex; align-items: center; gap: 34px; }
