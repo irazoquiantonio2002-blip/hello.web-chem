@@ -251,7 +251,7 @@
               El apoyo financiero<br>
               <span class="gold">que necesitas, sin complicaciones</span>
             </h2>
-            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
+            <p style="color:var(--ink-3); margin-top:16px; font-size:15.5px; max-width:440px; line-height:1.7;">
               Elige el trámite que aplica a tu situación y nosotros nos encargamos del resto.
             </p>
           </div>
@@ -269,9 +269,9 @@
               alt="Billetes de pesos mexicanos representando el apoyo por desempleo del Afore">
             <div class="amb-overlay">
               <div class="amb-icon-wrap"
-                   style="background:rgba(233,3,3,0.18); border-color:rgba(233,3,3,0.45);"
+                   style="background:rgba(11,95,255,0.18); border-color:rgba(11,95,255,0.45);"
                    aria-hidden="true">
-                <i class="fa-solid fa-piggy-bank" style="color:#ff8a8a;"></i>
+                <i class="fa-solid fa-piggy-bank" style="color:var(--accent-light);"></i>
               </div>
               <h3>Retiro de Afore por Desempleo</h3>
               <p>Si perdiste tu empleo, puedes retirar el apoyo acumulado en tu subcuenta del Afore. Te guiamos paso a paso.</p>
@@ -501,26 +501,28 @@
           <p>Estos son los requisitos generales más comunes. Confírmalos con nosotros según tu caso.</p>
         </div>
 
-        <div class="sectores-grid" role="list">
-          <div class="sector-card reveal" role="listitem">
-            <i class="fa-solid fa-id-card sector-icon" aria-hidden="true"></i>
-            <h3>Mínimo 2 años cotizados en el IMSS</h3>
+        <div class="sectores-groups">
+          <div class="sector-group reveal">
+            <div class="sg-head">
+              <div class="sg-icon" aria-hidden="true"><i class="fa-solid fa-piggy-bank"></i></div>
+              <h3>Retiro de Afore por Desempleo</h3>
+            </div>
+            <ul class="sg-list" role="list">
+              <li role="listitem"><i class="fa-solid fa-check" aria-hidden="true"></i> Mínimo 2 años cotizados en el IMSS</li>
+              <li role="listitem"><i class="fa-solid fa-check" aria-hidden="true"></i> No laborar actualmente con seguro social</li>
+              <li role="listitem"><i class="fa-solid fa-check" aria-hidden="true"></i> No haber retirado en los últimos 5 años</li>
+              <li role="listitem"><i class="fa-solid fa-check" aria-hidden="true"></i> Identificación oficial vigente</li>
+            </ul>
           </div>
-          <div class="sector-card reveal d1" role="listitem">
-            <i class="fa-solid fa-briefcase sector-icon" aria-hidden="true"></i>
-            <h3>No laborar actualmente con seguro social</h3>
-          </div>
-          <div class="sector-card reveal d2" role="listitem">
-            <i class="fa-regular fa-calendar-xmark sector-icon" aria-hidden="true"></i>
-            <h3>No haber retirado en los últimos 5 años</h3>
-          </div>
-          <div class="sector-card reveal d3" role="listitem">
-            <i class="fa-solid fa-house-circle-check sector-icon" aria-hidden="true"></i>
-            <h3>Cuenta Infonavit activa (para Mejoravit)</h3>
-          </div>
-          <div class="sector-card reveal d4" role="listitem">
-            <i class="fa-regular fa-id-badge sector-icon" aria-hidden="true"></i>
-            <h3>Identificación oficial vigente</h3>
+          <div class="sector-group reveal d1">
+            <div class="sg-head">
+              <div class="sg-icon" aria-hidden="true"><i class="fa-solid fa-house-chimney"></i></div>
+              <h3>Crédito Mejoravit</h3>
+            </div>
+            <ul class="sg-list" role="list">
+              <li role="listitem"><i class="fa-solid fa-check" aria-hidden="true"></i> Cuenta Infonavit activa</li>
+              <li role="listitem"><i class="fa-solid fa-check" aria-hidden="true"></i> Identificación oficial vigente</li>
+            </ul>
           </div>
         </div>
 

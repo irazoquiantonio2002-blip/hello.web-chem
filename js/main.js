@@ -108,7 +108,7 @@ function initHeroCanvas() {
       if (p.y < 0) p.y = h; if (p.y > h) p.y = 0;
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(255, 107, 107, ${p.a})`;
+      ctx.fillStyle = `rgba(91, 147, 255, ${p.a})`;
       ctx.fill();
     });
     raf = requestAnimationFrame(tick);
